@@ -1,3 +1,4 @@
+/*header CSS*/
 .header {
     position: fixed;
     top: 0;
@@ -11,6 +12,13 @@
     padding: 0 6 rem;
 }
 
+.nav__link {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 .header__logo {
     font-size: 1rem;
     color: #335576;
@@ -18,53 +26,57 @@
 }
 
 .header__navbar {
+    display: flex;
     padding-right: 6rem;
     color: black;
     background-color: #FFFFFF;
 }
 
-.cards {
-    display: flex;
-    justify-content: space-between;
-    /* Other styles for the card container */
-  }
+/*card CSS*/
+.cards__container {
+  display: flex;
+  justify-content: space-between; /* Adjust alignment as needed */
+  /* Other styles for the card container */
+}
 
 .card {
-    display: flex;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-    /* Other styles for the card */
-  }
-  
-.card__content {
-    position: relative;
-    padding: 20px; 
-    bottom: 5px;
-    right: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-    /* Other styles for the card content */
-  }
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  /* Other styles for the card */
+}
 
-.card__title {
-    margin-top: 0; /* Reset default margin if necessary */
-    font-size: 1.2rem; /* Adjust font size as needed */
-    /* Other styles for the card title */
-  }
+.card__content {
+  padding: 20px;
+  position: relative; /* To position destination name */
+  /* Other styles for the card content */
+}
 
 .card__destination {
-    position: absolute;
-    bottom: 5px; /* Adjust as needed */
-    right: 5px; /* Adjust as needed */
-    background-color: rgba(255, 255, 255, 0.8); /* Background color */
-    padding: 5px; /* Padding around destination name */
-    border-radius: 3px; /* Rounded corners for destination name */
-  }
+  position: absolute;
+  bottom: 5px; /* Adjust as needed */
+  right: 5px; /* Adjust as needed */
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 3px;
+}
+/* Other styles for card title, description, button, etc. */
 
+/*footer*/
 .footer {
-        background-color: #FEFAF5;
-        padding: 20px;
-        text-align: center;
-  }
+  background-color: #FEFAF5; 
+  padding: 20px;
+  text-align: center;
+}
+
+.footer__title {
+  color: #335576; /* Color for footer title */
+}
+
+.footer__text {
+  color: #DB7A4E; /* Color for footer text */
+}
+
+.footer__text--2 {
+  color: #335576; /* Color for footer text */
+}
