@@ -63,20 +63,41 @@
 /* Other styles for card title, description, button, etc. */
 
 /*footer*/
-.footer {
+.footer__content {
   background-color: #FEFAF5; 
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
   text-align: center;
 }
 
-.footer__title {
+/* Styles for the footer images */
+.footer__image {
+  width: 0.25rem /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin: 1rem; /* Adjust margin between images */
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__contact, .footer__hours, .footer__social {
   color: #335576; /* Color for footer title */
+  text-align: center;
 }
 
 .footer__text {
   color: #DB7A4E; /* Color for footer text */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  text-align: center;
 }
 
 .footer__text--2 {
   color: #335576; /* Color for footer text */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+  justify-content: space-between;
+  text-align: center;
 }
