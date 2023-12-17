@@ -9,10 +9,9 @@
     <!-- start of header -->
 <header class="header">
     <!-- navigation logo -->
-    <a class="header__logo" href="./index.html">
+    <a class="header__title" href="./index.html">
         <h2>Travel Site</h2>
     </a>
-    <img src="/assets/Images/hero.png" alt="header__logo">
 
     <!-- navigation bar -->
     <nav class="header__navbar">
@@ -37,17 +36,25 @@
 <main>
 <body>
 <!--hero section-->
-<section>
-<div class="hero">
-    <div class="hero__container"></div>
-        <h2 class="hero__title">Travelling Comes With Endless Discoveries</h2>
-        <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-        <button class="button button--round-rectangular">Get Started</button>
-    </div>
-</section>
+<div class="flex-container">
+    <section class="hero">
+        <div class="hero__container">
+            <h2 class="hero__title">Travelling Comes With Endless Discoveries</h2>
+            <p class="hero__description">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+            <button class="button button--round-rectangular hero__button">Get Started</button>
+        </div>
+    </section>
+<!--hero logo section-->
+    <section class="hero">
+        <div class="hero__container--hero__logo">
+            <img src="/assets/Images/hero.png" alt="hero__logo">
+        </div>
+    </section>
+</div>
 
 <section>
 <!--recommendations section-->    
+<h3 class="recommendations__title">Recommendations</h2>
 <div class="photo-cards">
     <!--Hawaii-->
     <div class="photo-card">

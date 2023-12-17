@@ -10,7 +10,7 @@
     height: 4rem;
     padding: 0 6 rem;
 }
-.header__logo {
+.header__title {
   position: relative;
   top: 0;
   right: 10;
@@ -40,40 +40,66 @@
     margin-left: 0.625rem;
 }
 
-header, body, footer {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* Add fallback fonts in case the primary font isn't available */
+/* Flex container styles */
+.flex-container {
+  display: flex;
+}
+
+/* Styles for each hero section */
+.hero {
+  flex: 1; /* Equal width for both sections */
+  background-color: #FEFAF5; /* Background color */
+  padding: 20px; /* Example padding */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Specific styles for the text content in the hero section */
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero__title, .hero__description {
+  color: #335576; /* Text color for the title */
+  text-align: left; /* Align text content to the left */
+}
+
+.hero__container--hero__logo {
+  width: 10px; 
+  height: auto;
 }
 
 /* Get Started button */
-.button {
+.hero__button {
   display: inline-block;
   padding: 0.625rem 2.5rem;
   border: none;
   cursor: pointer;
   text-decoration: none;
   text-align: center;
-  /* Other button styles */
-}
-
-/* Round-rectangular button modifier */
-.button--round-rectangular {
   background-color: #DB7A4E;
   color: #fff;
   border-radius: 0.938rem;
-  /* Additional styles for primary button */
+  /* Other button styles */
+}
+
+.recommendations__title {
+  display: flex;
+  padding-left: 10%;
 }
 
 /*photo card*/
 .photo-cards {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
 }
 
 .photo-card {
   position: relative;
   flex: 1;
-  margin: 0 10px;
+  margin: 20px 5px;
   /* Other styles for the card */
 }
 
@@ -81,16 +107,16 @@ header, body, footer {
   width: 50%; 
   height: auto;
   display: block;
-  border-radius: 8px; 
+  border-radius: 5px; 
   /* Other styles for the image */
 }
 
 .photo-card__destination {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
   background-color: rgba(0, 0, 0, 0.7); /* Example background color */
-  color: #fff; /* Example text color */
+  color: #fff;
   padding: 5px 10px;
   border-radius: 5px; /* Example border radius */
   /* Other styles for the destination */
@@ -133,4 +159,9 @@ header, body, footer {
   font-weight: 100;
   justify-content: space-between;
   text-align: center;
+}
+
+header, body, footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* Add fallback fonts in case the primary font isn't available */
 }
