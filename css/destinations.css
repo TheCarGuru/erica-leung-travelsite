@@ -1,0 +1,85 @@
+/*header CSS*/
+.header {
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 1rem;
+    height: 4rem;
+    padding: 0 6 rem;
+}
+.header__logo {
+  position: relative;
+  top: 0;
+  right: 10;
+  font-size: 1rem;
+  color: #335576;
+  text-decoration: none;
+}
+
+.header__navbar, .nav__link {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 6rem;
+  color: black;
+  background-color: #FFFFFF;
+}
+
+.header__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  /* Other styles for the navigation list */
+}
+
+.nav__link {
+    display: flex;
+    padding: 0;
+    margin-left: 0.625rem;
+}
+
+header, body, footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* Add fallback fonts in case the primary font isn't available */
+}
+
+/*footer*/
+.footer__content {
+    background-color: #FEFAF5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625rem;
+    text-align: center;
+  }
+  /* Styles for the footer images */
+  .footer__image {
+    height: auto; /* Maintain aspect ratio */
+    margin: 1rem; /* Adjust margin between images */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer__contact, .footer__hours, .footer__social {
+    color: #335576; /* Color for footer title */
+    text-align: center;
+    margin: 0 5rem; /* Adjust horizontal margins between sections */
+  }
+  
+  .footer__text {
+    color: #DB7A4E; /* Color for footer text */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+  }
+  
+  .footer__text--2 {
+    color: #335576; /* Color for footer text */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    justify-content: space-between;
+    text-align: center;
+  }

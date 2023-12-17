@@ -33,34 +33,41 @@
     </nav>
 </header>
 
-</body>
-<div class="cards"> <!-- Block -->
-    <div class="cards__container"> <!-- Element -->
-      <div class="card"> <!-- Element -->
-        <!-- Content of the Hawaii card -->
-        <img src="/assets/Images/hawaii.jpg" alt="Hawaii">
-        <h2 class="card__title">Hawaii</h2>
-        <p class="card__destination">Destination Name 1</p>
-        <a href="/pages/hawaii.html" class="card__button">Hawaii</a>
-      </div>
-  
-      <div class="card"> <!-- Element -->
-        <!-- Content of the Iceland card -->
-        <img src="/assets/Images/iceland.jpg" alt="Iceland">
-        <h2 class="card__title">Iceland</h2>
-        <p class="card__destination">Destination Name 2</p>
-        <a href="/pages/iceland.html" class="card__button">Iceland</a>
-      </div>
-  
-      <div class="card"> <!-- Element -->
-        <!-- Content of the Greece card -->
-        <img src="/assets/Images/greece.jpg" alt="Greece">
-        <h2 class="card__title">Greece</h2>
-        <p class="card__destination">Destination Name 2</p>
-        <a href="/pages/greece.html" class="card__button">Greece</a>
-      </div>
+<!--start of body-->
+<main>
+<body>
+<!--hero section-->
+<section>
+<div class="hero">
+    <div class="hero__container"></div>
+        <h2 class="hero__title">Travelling Comes With Endless Discoveries</h2>
+        <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+        <button class="button button--round-rectangular">Get Started</button>
+    </div>
+</section>
+
+<section>
+<!--recommendations section-->    
+<div class="photo-cards">
+    <!--Hawaii-->
+    <div class="photo-card">
+      <img src="/assets/Images/hawaii.jpg" alt="Hawaii" class="photo-card__image">
+      <div class="photo-card__destination">Hawaii</div>
+    </div>
+    <!--Iceland-->
+    <div class="photo-card">
+      <img src="/assets/Images/iceland.jpg" alt="Iceland" class="photo-card__image">
+      <div class="photo-card__destination">Iceland</div>
+    </div>
+    <!--Greece-->
+    <div class="photo-card">
+      <img src="/assets/Images/greece.jpg" alt="Greece" class="photo-card__image">
+      <div class="photo-card__destination">Greece</div>
+    </div>
   </div>
-  
+</section>
+
+<!--footer-->
     <footer>
         <footer class="footer"> <!-- Block -->
             <h3 class="footer__content"><!-- Element -->
@@ -88,7 +95,8 @@
             <img src="/assets/Icons/icon-twitter.png" alt="Twitter" class="footer__image"> <!-- Element -->
                 </div>
         </footer>
-
+    </body>
+</main>
 </html>
 
 

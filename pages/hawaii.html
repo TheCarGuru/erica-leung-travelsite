@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/destinations.css"/>
     <title>Travel Site - Hawaii</title>
 </head>
     <!-- start of header -->
 <header class="header">
     <!-- navigation logo -->
-    <a class="header__logo" href="./index.html">
+    <a class="header__logo" href="/index.html">
         <h2>Travel Site</h2>
     </a>
-    <img src="/assets/Images/hero.png" alt="header__logo">
 
     <!-- navigation bar -->
     <nav class="header__navbar">
@@ -36,26 +36,34 @@
     
 </body>
 
+    <!--footer-->
     <footer>
-    <div>
-        <div class="footer__container">
-        <h3>Contact</h3>
-        <p>Email</p> 
-        <a href="mailto:info@travelsite.com">info@travelsite.com</a></p>
-        <h3>Hours</h3>
-        <p>MONDAY - FRIDAY</p> 
-        <p>9:00AM - 5:00PM</p>
-        <p>SATURDAY</p>
-        <p>10:00AM - 4:00PM</p>
-        <p>SUNDAY</p>
-        <p>Closed</p>
-        <h3>Social</h3>
-        <img src="/assets/Icons/icon-instagram.png" alt="Instagram">
-        <img src="/assets/Icons/icon-facebook.png" alt="Facebook">
-        <img src="/assets/Icons/icon-twitter.png" alt="Twitter">
-    </div>
-</div>
-    </footer>
+        <footer class="footer"> <!-- Block -->
+            <h3 class="footer__content"><!-- Element -->
+                <div class="footer__section footer__contact"> <!-- Element --> 
+                <h3 class="footer__title">Contact</h3> 
+                <p class="footer__text">Email</p> <!-- Element -->
+                <p class="footer__text--2">info@travelsite.com</p>
+                </div>
+        <footer class="footer__content"> <!-- Block -->
+            <div class="footer__section footer__hours"> <!-- Element -->
+            <h3 class="footer__title">Hours</h3> <!-- Element -->
+            <p class="footer__text">MONDAY - FRIDAY</p> <!-- Element -->
+            <p class="footer__text--2">9:00 AM - 5:00 PM</p> <!-- Element -->
+            <p class="footer__text">SATURDAY</p> <!-- Element -->
+            <p class="footer__text--2">10:00 AM - 4:00 PM</p> <!-- Element -->
+            <p class="footer__text">SUNDAY</p> <!-- Element -->
+            <p class="footer__text--2">Closed</p> <!-- Element -->
+            </div>
+        <footer class="footer__content"> <!-- Block -->
+            <div class="footer__section footer__social"> <!-- Element -->
+            <h3 class="footer__title">Social</h3> <!-- Element -->
+            <div class="footer__image">
+            <img src="/assets/Icons/icon-instagram.png" alt="Instagram" class="footer__image"> <!-- Element -->
+            <img src="/assets/Icons/icon-facebook.png" alt="Facebook" class="footer__image"> <!-- Element -->
+            <img src="/assets/Icons/icon-twitter.png" alt="Twitter" class="footer__image"> <!-- Element -->
+                </div>
+        </footer>
 
 </html>
 
