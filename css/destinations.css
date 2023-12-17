@@ -42,6 +42,33 @@ padding: 0;
   margin-left: 0.625rem;
 }
 
+/* Global styles or reset */
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image-container {
+  position: relative; /* Required for absolute positioning of overlay */
+  max-width: 100%; /* Ensure container doesn't exceed viewport width */
+}
+
+.body-image {
+  max-width: 100%; /* Ensure image stays within container */
+  max-height: 100%; /* Ensure image stays within container */
+  /* Additional styling for your image */
+}
+
+.image-text {
+  position: absolute;
+  top: 10px; /* Adjust top position */
+  left: 10px; /* Adjust left position */
+  color: white; /* Text color */
+  font-size: 24px; /* Font size */
+  background-color: rgba(0, 0, 0, 0.7); /* Background color */
+  padding: 10px 10px; /* Padding */
+}
+
 /*footer*/
 .footer__content {
     background-color: #FEFAF5; 
