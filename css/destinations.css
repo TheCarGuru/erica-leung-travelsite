@@ -74,25 +74,36 @@ padding: 0;
   color: black;
 }
 
+.overlay-box ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+.overlay-box ul li {
+  margin-bottom: 50%; /* Adjust margin between items */
+}
+
+/* Additional CSS for underlining itinerary titles */
+.overlay-box h3 {
+  text-decoration: underline; /* Add underline to the h3 titles */
+}
+
 .overlay-box-1 { /* Adjust styles for each box */
-  position: absolute;
   top: 10%; /* Adjust top position */
   left: 10%; /* Adjust left position */
-  padding: 10px; /* Adjust padding as needed */
+  padding: 50px; /* Adjust padding as needed */
 }
 
 .overlay-box-2 { /* Adjust styles for each box */
-  position: absolute;
   top: 10%; /* Adjust top position */
   left: 40%; /* Adjust left position */
-  padding: 10px; /* Adjust padding as needed */
+  padding: 50px; /* Adjust padding as needed */
 }
 
 .overlay-box-3 { /* Adjust styles for each box */
-  position: absolute;
   top: 10%; /* Adjust top position */
   left: 70%; /* Adjust left position */
-  padding: 10px; /* Adjust padding as needed */
+  padding: 50px; /* Adjust padding as needed */
 }
 
 .image-text {
