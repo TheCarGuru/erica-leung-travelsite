@@ -48,6 +48,16 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%; /* Occupy full width of the page */
+  background-color: #f0f0f0;
+  overflow: hidden; /* Hides overflowing content */
+}
+
 .image-container {
   position: relative; /* Required for absolute positioning of overlay */
   max-width: 100%; /* Ensure container doesn't exceed viewport width */
@@ -59,14 +69,44 @@ body {
   /* Additional styling for your image */
 }
 
+.overlay-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+}
+.overlay-box {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #FEFAF5; /* Adjust background color and opacity */
+  border: 1px solid #000; /* Add borders or adjust as needed */
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+}
+
+.overlay-box-1 { /* Adjust styles for each box */
+  position: relative;
+}
+
+.overlay-box-2 { /* Adjust styles for each box */
+  position: relative;
+}
+
+.overlay-box-3 { /* Adjust styles for each box */
+  position: relative;
+}
 .image-text {
   position: absolute;
   top: 10px; /* Adjust top position */
   left: 10px; /* Adjust left position */
   color: white; /* Text color */
-  font-size: 24px; /* Font size */
-  background-color: rgba(0, 0, 0, 0.7); /* Background color */
-  padding: 10px 10px; /* Padding */
+  font-size: 3.125rem; /* Font size */
+  font-style: bold;
+  padding: 4rem 0.625rem 0rem 0.625rem; /* Padding */
+  padding-left: 10rem;
 }
 
 /*footer*/
