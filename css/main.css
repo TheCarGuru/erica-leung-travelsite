@@ -116,12 +116,11 @@
 }
 
 .photo-card__destination {
-  position: relative;
-  bottom: 10px;
-  right: 10px;
-  background-color: rgba(0, 0, 0, 0.7); /* Example background color */
+  position: absolute;
+  bottom: 5%;
+  align-items: right;
   color: #fff;
-  padding: 5px 10px;
+  padding: 5px 20px;
   border-radius: 5px; /* Example border radius */
   /* Other styles for the destination */
 }

@@ -42,19 +42,13 @@ padding: 0;
   margin-left: 0.625rem;
 }
 
-/* Global styles or reset */
-body {
-  margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .body-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100%; /* Occupy full width of the page */
-  background-color: #f0f0f0;
+  background-color: #FFFFFF;
   overflow: hidden; /* Hides overflowing content */
 }
 
@@ -69,35 +63,38 @@ body {
   /* Additional styling for your image */
 }
 
-.overlay-container {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-}
 .overlay-box {
+  position: absolute;
   flex: 1;
   padding: 10px;
-  box-sizing: border-box;
   background-color: #FEFAF5; /* Adjust background color and opacity */
-  border: 1px solid #000; /* Add borders or adjust as needed */
+  border: 1px solid black; /* Add borders or adjust as needed */
   text-align: center;
-  font-size: 18px;
-  color: #000;
+  font-size: 1.125rem;
+  color: black;
 }
 
 .overlay-box-1 { /* Adjust styles for each box */
-  position: relative;
+  position: absolute;
+  top: 10%; /* Adjust top position */
+  left: 10%; /* Adjust left position */
+  padding: 10px; /* Adjust padding as needed */
 }
 
 .overlay-box-2 { /* Adjust styles for each box */
-  position: relative;
+  position: absolute;
+  top: 10%; /* Adjust top position */
+  left: 40%; /* Adjust left position */
+  padding: 10px; /* Adjust padding as needed */
 }
 
 .overlay-box-3 { /* Adjust styles for each box */
-  position: relative;
+  position: absolute;
+  top: 10%; /* Adjust top position */
+  left: 70%; /* Adjust left position */
+  padding: 10px; /* Adjust padding as needed */
 }
+
 .image-text {
   position: absolute;
   top: 10px; /* Adjust top position */
