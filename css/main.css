@@ -1,4 +1,4 @@
-/*header CSS*/
+/*header*/
 .header {
     position: relative;
     top: 0;
@@ -10,6 +10,7 @@
     height: 4rem;
     padding: 0 6 rem;
 }
+
 .header__title {
   position: relative;
   top: 0;
@@ -33,7 +34,6 @@
   display: flex;
   list-style: none;
   padding: 0;
-  /* Other styles for the navigation list */
 }
 
 .nav__link {
@@ -42,20 +42,18 @@
     margin-left: 0.625rem;
 }
 
-/* Flex container styles */
 .flex-container {
   display: flex;
 }
 
-/* Styles for each hero section */
+/*Hero section */
 .hero {
-  flex: 1; /* Equal width for both sections */
-  background-color: #FEFAF5; /* Background color */
-  padding: 20px; /* Example padding */
-  box-sizing: border-box; /* Include padding in width calculation */
+  flex: 1; 
+  background-color: #FEFAF5; 
+  padding: 20px; 
+  box-sizing: border-box; 
 }
 
-/* Specific styles for the text content in the hero section */
 .hero__container {
   display: flex;
   flex-direction: column;
@@ -65,8 +63,8 @@
 }
 
 .hero__title, .hero__description {
-  color: #335576; /* Text color for the title */
-  text-align: left; /* Align text content to the left */
+  color: #335576; 
+  text-align: left; 
 }
 
 .hero__container--hero__logo {
@@ -85,12 +83,12 @@
   background-color: #DB7A4E;
   color: #fff;
   border-radius: 0.938rem;
-  /* Other button styles */
 }
 
 .recommendations__title {
   display: flex;
   padding-left: 10%;
+  color: #335576;
 }
 
 /*photo card*/
@@ -103,7 +101,6 @@
   position: relative;
   flex: 1;
   margin:20px 5px;
-  /* Other styles for the card */
 }
 
 .photo-card__image {
@@ -112,7 +109,7 @@
   display: block;
   border-radius: 5px; 
   justify-content: center;
-  /* Other styles for the image */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); 
 }
 
 .photo-card__destination {
@@ -121,8 +118,7 @@
   align-items: right;
   color: #fff;
   padding: 5px 20px;
-  border-radius: 5px; /* Example border radius */
-  /* Other styles for the destination */
+  border-radius: 5px; 
 }
 
 /*footer*/
@@ -134,22 +130,22 @@
   padding: 0.625rem;
   text-align: center;
 }
-/* Styles for the footer images */
+
 .footer__image {
-  height: auto; /* Maintain aspect ratio */
-  margin: 1rem; /* Adjust margin between images */
+  height: auto; 
+  margin: 1rem; 
   justify-content: center;
   align-items: center;
 }
 
 .footer__contact, .footer__hours, .footer__social {
-  color: #335576; /* Color for footer title */
+  color: #335576; 
   text-align: center;
-  margin: 0 5rem; /* Adjust horizontal margins between sections */
+  margin: 0 5rem; 
 }
 
 .footer__text {
-  color: #DB7A4E; /* Color for footer text */
+  color: #DB7A4E; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 100;
@@ -157,14 +153,9 @@
 }
 
 .footer__text--2 {
-  color: #335576; /* Color for footer text */
+  color: #335576; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 100;
   justify-content: space-between;
   text-align: center;
-}
-
-header, body, footer {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* Add fallback fonts in case the primary font isn't available */
 }

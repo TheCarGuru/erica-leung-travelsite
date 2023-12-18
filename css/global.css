@@ -4,3 +4,7 @@ body {
     overflow: hidden; /* Prevents scrolling */
     position: relative; /* Ensure body is positioned relatively */
 }
+
+header, body, footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
